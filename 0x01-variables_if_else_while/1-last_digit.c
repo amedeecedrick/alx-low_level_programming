@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints a random number and states whether
- *        it is positive, negative, or zero.
+ * main - Print last digit of the number stored in the valiable n
+ * according to the given condition
  *
  * Return: Always 0.
 */

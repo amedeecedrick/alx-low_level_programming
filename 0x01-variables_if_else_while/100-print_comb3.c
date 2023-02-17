@@ -1,27 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+ * main - Print Alphabet in lower case followed by new line
+ * Return: Always 0.
+*/
 int main(void)
 {
-	int d;
-	int i;
+	int i, j;
 
-	for (d = 0; d < 90; d++)
+	for (i = 0; i < 10; i++)
 	{
-		for ()
+		for (j = 0; j < 10; j++)
 		{
-			putchar((d / 10) + '0');
-			putchar((d % 10) + '0');
-		}
-		if (d != 89)
-		{
+			putchar(i + '0');
+			putchar(j + '0');
 			putchar(',');
-			putchar(' ');
 		}
 	}
 	putchar('\n');
